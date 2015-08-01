@@ -1,4 +1,9 @@
 li {
 display: inline;
-padding: 20px;
+padding: 18px;
+font: 20px "Open Sans", sans-serif;
+}
+
+a {
+   color: red;
 }
