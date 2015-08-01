@@ -1,5 +1,6 @@
 li {
 display: inline;
+float: left;
 padding: 18px;
 font: 20px "Open Sans", sans-serif;
 }
