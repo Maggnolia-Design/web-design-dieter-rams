@@ -23,9 +23,11 @@ nav {
 }
 
 /*styles for principle h2 and p*/
+.principle {float: right; margin: 20%}
 .principle h2 {font: 32px "Open Sans", sans-serif}
 .principle span {font: bold 67px "Open Sans", sans-serif}
-.principle {float: right; padding: 20%}
+.principle p {padding-top: 50px;
+      border-top: 3px solid black}
 
 /*styles for principle h1*/
 .principle h1 {
@@ -34,7 +36,7 @@ nav {
    opacity: 0.3;
    z-index: -1;
    position: absolute;
-   padding: 180px;
+   margin: 180px;
 }
 
 /*responsive background images*/
