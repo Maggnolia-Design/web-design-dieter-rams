@@ -6,7 +6,18 @@ font: 20px "Open Sans", sans-serif;
 }
 
 a {
-   color: red;
+   color: grey;
+   opacity: 0.6;
+   text-decoration: none
+}
+
+a:hover {
+   opacity: 1;
+}
+
+nav {
+   padding-left:25px;
+   padding-top:35px;
 }
 
 .principle h1 {font: 60px "Open Sans", sans-serif}
