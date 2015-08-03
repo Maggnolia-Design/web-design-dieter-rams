@@ -8,7 +8,7 @@ font: 20px "Open Sans", sans-serif;
 
 a {
    color: black;
-   opacity: 0.3;
+   opacity: 0.25;
    text-decoration: none;
    transition:0.5s;
 }
@@ -33,7 +33,7 @@ nav {
    color: red
 }
 .principle p {
-   font: 20px "Libre Baskerville", serif;
+   font: 20px/30px "Libre Baskerville", serif;
    padding-top: 40px;
    border-top: 3px solid black
 }
@@ -41,8 +41,8 @@ nav {
 /*styles for principle h1*/
 .principle h1 {
    font: 200px "Open Sans", sans-serif;
-   color: red;
-   opacity: 0.2;
+   color: #EE26CD;
+   opacity: 0.15;
    z-index: -1;
    position: absolute;
    bottom: 10%;
