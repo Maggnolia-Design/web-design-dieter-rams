@@ -19,24 +19,35 @@ a:hover {
 
 nav {
    padding-left:25px;
-   padding-top:35px;
+   padding-top:40px;
 }
 
 /*styles for principle h2 and p*/
-.principle {float: right; margin: 20%}
-.principle h2 {font: 32px "Open Sans", sans-serif}
-.principle span {font: bold 67px "Open Sans", sans-serif}
-.principle p {padding-top: 50px;
-      border-top: 3px solid black}
+.principle {float: right; margin: 10% 20%}
+.principle h2 {
+   font: 29px "Open Sans", sans-serif;
+   padding-bottom: 15px
+}
+.principle span {
+   font: bold 64px "Open Sans", sans-serif;
+   color: red
+}
+.principle p {
+   font: 20px serif;
+   padding-top: 40px;
+   border-top: 3px solid black
+}
 
 /*styles for principle h1*/
 .principle h1 {
    font: 200px "Open Sans", sans-serif;
-   color: black;
-   opacity: 0.3;
+   color: red;
+   opacity: 0.2;
    z-index: -1;
    position: absolute;
-   margin: 180px;
+   bottom: 10%;
+   right: 25%;
+
 }
 
 /*responsive background images*/
@@ -48,6 +59,7 @@ nav {
    min-height: 100%;
    z-index: -2;
    opacity: .5
+}
 
 
 
