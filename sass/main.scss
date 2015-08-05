@@ -1,0 +1,70 @@
+/* styles for navigation bar  */
+
+nav {
+   padding-left:25px;
+   padding-top:40px;
+}
+
+ul {
+   >li {
+      display: inline;
+      float: left;
+      padding: 18px;
+      font: 20px "Open Sans", sans-serif;
+
+      >a {
+         color: black;
+         opacity: 0.25;
+         text-decoration: none;
+         transition:0.5s;
+
+         :hover {
+            opacity: 0.55;
+         }
+      }
+   }
+}
+
+/*styles for principle pages*/
+
+.principle {
+   float: right; margin: 10% 20%;
+   h2 {
+      font: 32px "Open Sans", sans-serif;
+      padding-bottom: 15px;
+   }
+   span {
+      font: bold 64px "Open Sans", sans-serif;
+      color: red;
+   }
+   p {
+      font: 20px/30px "Libre Baskerville", serif;
+      padding-top: 40px;
+      border-top: 3px solid black
+   }
+   h1 {
+      font: 200px "Open Sans", sans-serif;
+      color: #EE26CD;
+      opacity: 0.15;
+      z-index: -1;
+      position: absolute;
+      bottom: 10%;
+      right: 25%;
+   }
+}
+
+
+/*responsive background images*/
+
+#bg {
+   position: fixed;
+   top: 0;
+   left: 0;
+   min-width: 100%;
+   min-height: 100%;
+   z-index: -2;
+   opacity: .4
+}
+
+
+
